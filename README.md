@@ -23,7 +23,7 @@
 	</head>
 
 	<body>
-		<include class="flexBack" style="display: flex; height: 100vh;">
+		<div class="flexBack" style="display: flex; height: 100vh;">
 			<contents>
 				<include DS-Template="./DS-Header.html"></include>
 				<main-db>
