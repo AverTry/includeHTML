@@ -16,11 +16,11 @@
 		<link rel="stylesheet" href="./css/DS-Styles.css">
 		<link rel="stylesheet" href="./css/DS-SideBar.css">
 		<script src="./offline/js/bootstrap.min.js" defer></script>
-		<script src="./js/DS-Initialise.js" defer></script>
+		<script src="./js/includeHTML.js" defer></script>
 	</head>
 
 	<body>
-		<include class="flexBack" style="display: flex; height: 100vh;">
+		<div class="flexBack" style="display: flex; height: 100vh;">
 			<contents>
 				<include DS-Template="./DS-Header.html"></include>
 				<main-db>
