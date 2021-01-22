@@ -39,7 +39,7 @@
 
 const includeHTML = () => {
   const tag = document.getElementsByTagName("include") // rename for different <Tag> name.
-  for (let i = 0; i < tag.length; i++) { // No forEach here as you need the return to break out of function, for nested templates.
+  for (let i = 0; i < tag.length; i++) { // No forEach here as the return is needed for nesting templates.
     const node = tag[i]
     const file = node.getAttribute("DS-Template") // rename for different attribute - remember to update any previously created tags.
     if (file) {
